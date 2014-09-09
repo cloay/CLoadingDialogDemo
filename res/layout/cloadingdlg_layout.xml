@@ -4,18 +4,18 @@
   android:layout_width="fill_parent" 
   android:layout_height="fill_parent" 
   android:orientation="horizontal"
-  android:background="#fff"> 
+  android:background="#000"> 
     <ImageView 
         android:id="@+id/loadingImageView" 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content" 
+        android:layout_width="80dp" 
+        android:layout_height="80dp" 
         android:background="@anim/progress_anim"/> 
     <TextView 
         android:id="@+id/loading_msg_textV" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" 
-        android:layout_margin="5dp"
+        android:layout_margin="15dp"
         android:layout_gravity="center_vertical" 
-        android:textColor="#333333"
-        android:textSize="20sp"/> 
+        android:textColor="#fff"
+        android:textSize="16sp"/> 
 </LinearLayout>

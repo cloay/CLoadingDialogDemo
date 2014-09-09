@@ -45,7 +45,7 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			protected Void doInBackground(Void... params) {
 				try {
-					Thread.sleep(5*1000); //sleep 5 seconds
+					Thread.sleep(8*1000); //sleep 5 seconds
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
